@@ -23,9 +23,12 @@ $\dot{y_{23}}=  \frac{\Omega_{L} x_{13}}{2} - \frac{\Omega_{P} x_{12}}{2} - \Del
 
 ## Run
 Firs clone repository to your local folder:
+```bash
+git clone https://github.com/marcsanta02/3-level-atom.git
+cd 3-level-atom
+```
 
-
- This small project simulation has two main purposes.
+ This project simulation has two main purposes.
 ## 1. Obtains the stationary states analytically using sympy
 This part corresponds to the jupyter notebook code. As said, it makes use of the sympy library to obtain the equations describing the populations of the staionary states. Then it uses this equations to visually plot the absortion and emission of the atom.
 
