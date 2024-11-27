@@ -12,6 +12,7 @@ The small black dots on the graph represent the probability of the electron bein
 ## Theoretical background
 The evolution equations for a 3-level atom in the ineraction picture are the following:
 $\dot{\rho_{11}}=  \Omega_{L} y_{12} + \Omega_{P} y_{13} + \gamma_{21} \rho_{22} - \gamma_{31} \rho_{11} - \gamma_{31} \rho_{22} + \gamma_{31} $
+
 $\dot{\rho_{22}}=  - \Omega_{L} y_{12} - \gamma_{21} \rho_{22} $
 $\dot{\rho_{33}}=  -\dot{\rho_{22}} -\dot{\rho_{11}} $
 $\dot{x_{12}}=  \frac{\Omega_{P} y_{23}}{2} - \Delta_{L} y_{12} - 0.5 \gamma_{21} x_{12} $  
